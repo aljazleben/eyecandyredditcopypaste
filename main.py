@@ -2,7 +2,7 @@ import os
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, filters, ContextTypes
 
-TOKEN = os.getenv("7992625095:AAHAz8gXdvaRVMbDpaFANA_bjpnVelbKLPQ")
+TOKEN = os.getenv("BOT_TOKEN")
 
 async def handle_text(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_text = update.message.text.strip()
